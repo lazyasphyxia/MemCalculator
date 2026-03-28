@@ -21,7 +21,7 @@ class AnimatedButton(QPushButton):
         # Константы
         self.press_duration = 100
         self.release_duration = 300
-        self.target_scale = 1.15
+        self.target_scale = 1.05
         self.color_strength = 0.3
 
     # Создаем свойство для анимации, чтобы Qt понимал, что такое "scale"

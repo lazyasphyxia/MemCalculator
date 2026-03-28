@@ -27,7 +27,8 @@ class Calculator(QWidget):
         layout.addWidget(self.display)
 
         grid = QGridLayout()
-        grid.setSpacing(10)
+        grid.setSpacing(5)
+
 
         buttons = [
             ('C', 0, 0), ('±', 0, 1), ('%', 0, 2), ('÷', 0, 3),
